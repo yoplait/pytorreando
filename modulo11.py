@@ -8,6 +8,7 @@ def total_footage(kitchen,masterbedroom,*otherbedroom,**extra):
     print '1'
     for room in extra.keys():
       total+=extra[room][0]*extra[room][1]
+      print 'esta es la habita', room
     print '2'
     return total
 
